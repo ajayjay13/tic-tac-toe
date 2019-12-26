@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body align="center">
+  <script src="tictactoe.js"></script>
+
+  
+  
+  <br />
+  
+  <h3>Time <span id="hrs">00</span> <span>:</span>
+  <span id="mins">00</span> <span>:</span>
+  <span id="secs">00</span></h3>
+  <h3 id="player">Next Player : X</h3>
+  <br />
+  
+  <table align="center">
+  <tr>
+  <td><input type="button" id="1" onclick="first(1)" value=""/></td>
+  <td><input type="button" id="2" onclick="first(2)" value=""/></td>
+  <td><input type="button" id="3" onclick="first(3)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="4" onclick="first(4)" value=""/></td>
+  <td><input type="button" id="5" onclick="first(5)" value=""/></td>
+  <td><input type="button" id="6" onclick="first(6)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="7" onclick="first(7)" value=""/></td>
+  <td><input type="button" id="8" onclick="first(8)" value=""/></td>
+  <td><input type="button" id="9" onclick="first(9)" value=""/></td>
+  </tr>
+  </table>
+  
+   
+  <section align="center" id="popup">
+  <h3 id="winner"></h3> 
+  <button id="popupbutton" onclick="set()">Ok</button>
+  </section>
+  
+  
+  
+  </body>
+</html>
